@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title id="titleWebsite">Rock Paper Scissors Python Game</title>
+    <link rel="icon" href="icon (2).png" type="image/x-icon">
+    <style>
+        #ctext {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-left: 1cm;
+        }
+
+        #titletextAPP {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            margin-left: 1.5cm;
+        }
+
+        #Linktext {
+            color: rgb(4, 0, 255);
+        }
+
+        #proveMsg {
+            cursor: url(cursor.png), default;
+        }
+
+        body {
+            cursor: url(cursor.png), default;
+           
+        }
+
+        head {
+            cursor: url(cursor.png), default;
+        }
+
+        a, button {
+            cursor: url(pointer.png), pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <img src="icon (2).png" width="150">
+
+    <h1 id="titletextAPP">Rock Paper Scissors Python Game</h1>
+    <p>Note: You need to install Python to make this work. Please visit
+        <a id="Linktext" href="https://www.python.org/downloads/windows/">Python downloads for Windows</a> or
+        <a id="Linktext" href="https://www.python.org/downloads/macos/">Python downloads for MacOS</a>.
+    </p>
+
+    <h1 id="ctext">App Versions:</h1>
+    <p>Language English:</p>
+    <button id="engDwload">Download English Version (ORIGINAL)</button>
+    <p>Language French:</p>
+    <button id="frDwload">Download French Version</button>
+    <p><h3>Proved Code:
+    <p><img src="pyrpsProved.png" id="proveMsg"></p>
+    </h3></p>
+    <script>
+        document.getElementById('engDwload').addEventListener("click", function() {
+            window.open("https://drive.google.com/uc?export=download&id=1YIVXPq3Dw80I6tV1VgM5yuBDt9otIC6u", "_blank")
+        });
+
+    </script>
+    <script>
+        document.getElementById('frDwload').addEventListener("click", function() {
+            window.open("https://drive.google.com/uc?export=download&id=1EHVsojdZrWwEJRBFc1fGnXV5uBWpUEJv", "_blank")
+        });
+
+    </script>
+</body>
+
+</html>
